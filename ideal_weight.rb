@@ -6,7 +6,7 @@ name = gets.chomp
 puts "Какой у Вас рост?"
 hight = gets.chomp.to_i 
 if 	hight - 110 <= 0	
-	puts "Сначала подрасти"
+	puts " #{name} ,сначала подрасти"
 elsif sex == "мужчина"
 puts "Твой оптимальный вес #{hight - 100 - ((hight - 150)/2)} кг"
 	
